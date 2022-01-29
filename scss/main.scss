@@ -1,0 +1,59 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@import "modules/new/choise";
+@import "modules/new/footer";
+@import "modules/new/main";
+@import "modules/new/header";
+@import "modules/new/tabs";
+@import "media";
+@import "variables";
+
+
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    grid-area: header;
+}
+.tabs {
+    grid-area: tabs;
+}
+.choise {
+    grid-area: choise;
+}
+.main {
+    grid-area: main;
+}
+.footer {
+    grid-area: footer;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: grid;
+    background-color: #7a8893;
+    // grid-template: minmax(150px, auto) minmax(400px,  auto) minmax(400px, auto) minmax(400px, auto) minmax(150px, auto) / repeat(4, 1fr);
+    grid-template: minmax(150px, auto) minmax(700px, auto) minmax(600px, auto) minmax(600px, auto) minmax(150px, auto) / 1fr;
+    grid-template-areas: 
+// 'header header header'
+// 'stock stock stock stock'
+// 'tabs tabs tabs tabs'
+// 'choise choise choise choise'
+// 'footer footer footer footer';
+
+        "header"
+        "main"
+        "tabs"
+        "choise"
+        "footer";
+}

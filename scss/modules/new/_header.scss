@@ -1,0 +1,48 @@
+.header {
+    display: grid;
+    background-color: rgb(122, 136, 147);
+    // grid-template: repeat(2, 1fr) / 1fr ;
+    padding-top: 10px;
+    &__first {
+        font-size: 60px;
+        padding-top: 14px;
+        text-transform: uppercase;
+        font-family: "Stalinist One", cursive;
+    }
+    &__logo {
+        width: 110px;
+    }
+    &__second {
+        font-size: 60px;
+        padding-top: 14px;
+        text-transform: uppercase;
+        font-family: "Stalinist One", cursive;
+    }
+    &__component {
+        display: grid;
+        grid-auto-flow: column;
+        margin: 0 auto;
+    }
+    &__menu {
+        display: grid;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+    }
+    &__list {
+        display: grid;
+        grid-auto-flow: column;
+    }
+    &__link {
+        font-size: 18px;
+        color: black;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            color: rgb(255, 0, 0);
+            transition: 0.5s all;
+        }
+    }
+}
+
