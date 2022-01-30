@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 window.addEventListener('DOMContentLoaded', () => {
     //TIMER
@@ -68,7 +68,7 @@ window.addEventListener('DOMContentLoaded', () => {
         });
         tabheaderDescr.forEach(item => {
             item.style.display = 'none';
-        })
+        });
     }
 
     function showImg(i = 0) {
