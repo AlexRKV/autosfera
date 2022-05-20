@@ -505,6 +505,6 @@ li {
   -ms-grid-rows: minmax(150px, auto) minmax(700px, auto) minmax(600px, auto) minmax(600px, auto) minmax(150px, auto);
   -ms-grid-columns: 1fr;
       grid-template: minmax(150px, auto) minmax(700px, auto) minmax(600px, auto) minmax(600px, auto) minmax(150px, auto)/1fr;
-      grid-template-areas: "header" "main" "tabs" "choise" "footer";
+      grid-template-areas: "header" "main" "tabs" "choise" "footer";
 }
 /*# sourceMappingURL=main.css.map */
